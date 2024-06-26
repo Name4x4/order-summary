@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display;"
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-Very-pale-blue) url('images/pattern-background-deskop.svg') no-repeat top center/contain ;
+}
+:root {
+
+    --color-Very: hsl(225, 100%, 98%);
+    --color-Dark: hsl(223, 47%, 23%);
+    --color-Pale: hsl(225, 100%, 94%);
+    --color-Bright:hsl(245, 75%, 52%);
+}
+.card {
+    width: 450px;
+    background-color:white;
+    border-radius: 8px ;
+    
+    
+}
+.card-top{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card body{
+    text-align: center;
+    padding: 10px 20px;
+}
+.card body h2{
+    margin-bottom: 10px;
+}   
+.card body p{
+    font-size: 14px;
+    color: var(--color-Very);
+}
+.card .btn-payment {
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: var(--color-Bright);
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+.card .btn-cancel{
+    background-color: transparent;
+    border: none;
+    margin-top: 15px;
+    color: var(--color-Very);
+    font-weight: 700;
+}
+.card img{
+  border-radius:8px 8px 0px 0px;
+}
+.plan{
+    background-color: var(--color-Very);
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.box1{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+}
+.box1 img {
+    width: 30px;
+}
+.box1 P {
+    font-size: 10px;
+}
+.card-body .change-plan{
+    color: var(--color-Bright);
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration:underline;
+}
